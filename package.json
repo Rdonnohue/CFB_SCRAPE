@@ -1,0 +1,24 @@
+{
+  "name": "scrapping-cfb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel src/players/getPlayerStats/getPlayerStats.js --out-file output.js && node output.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.12.13",
+    "@babel/preset-stage-1": "^7.8.3",
+    "@types/got": "^9.6.11",
+    "got": "^11.8.2",
+    "jsdom": "^16.5.3",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.1"
+  }
+}
